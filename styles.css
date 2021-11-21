@@ -1,0 +1,121 @@
+:root {
+  --color-darkblue: #363f5f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  background: #f0f2f5;
+}
+
+h2 {
+  margin: 3.2rem 0 0.8rem 0;
+  color: var(--color-darkblue);
+
+  font-weight: normal;
+}
+
+header {
+  background: #2d4a22;
+  padding: 2rem 0 15rem;
+  text-align: center;
+}
+
+#logo {
+  color: #fff;
+  font-weight: 100;
+}
+
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
+
+#balance {
+  margin-top: -10.5rem;
+}
+
+#balance h2 {
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  color: var(--color-darkblue);
+}
+
+.card h3 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 2rem;
+  line-height: 3rem;
+
+  margin-top: 1rem;
+}
+
+.card.total {
+  background: #49aa26;
+  color: #fff;
+}
+
+#data-table {
+  width: 100%;
+  border-spacing: 0 0.25rem;
+  color: #969cb3;
+}
+
+table th {
+  background: #fff;
+  font-weight: normal;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+table td {
+  background: #fff;
+  padding: 1rem 2rem;
+}
+
+table tbody tr {
+  opacity: 0.7;
+}
+
+table tbody tr:hover {
+  opacity: 1;
+}
+
+table thead th:first-child,
+table tbody td:first-child {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+td.description {
+  color: var(--color-darkblue);
+}
+
+td.income {
+  color: #12a454;
+}
+
+td.expense {
+  color: #e92929;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 0 2rem;
+  color: #fff;
+  background: #2d4a22;
+}
